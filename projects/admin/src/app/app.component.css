@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+mat-card {
+    width: 60%;
+    margin: 1em auto;
+}
+.stats-table {
+    width: 100%;
+}
+
+.stats-table > div {
+    display: flex;
+}
+
+.stats-table > div > div {
+    padding: 0.8em;
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+}
